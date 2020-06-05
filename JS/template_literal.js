@@ -23,3 +23,16 @@ console.log(msg)
 //ES6
 let data= `my name is ${person.name} and my addres  is ${person.address} and my cource is ${person.course}`;
 
+
+
+let address="goregaaon";
+let fname="Ankit";
+let lname="Singh";
+
+let box=`hello ${address}   
+<h1>this is first line</h2>
+<p>do you know what is your first name ${fname}
+and last name ${lname} 
+` ;
+console.log(box)
+

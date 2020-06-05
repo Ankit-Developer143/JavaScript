@@ -38,7 +38,7 @@ console.log(html.includes('is'));//true
 //substring print index element using index value
 console.log(html.substring(0,2));
 
-//inclues and slice are identical but if we use index value(-4) then slice print end 4 value but includes return all the string
+//includes and slice are identical but if we use index value(-4) then slice print end 4 value but includes return all the string
 console.log(html.slice(-4)); //op:-this
 
 //split (break all the word) seprate the variable
@@ -47,6 +47,7 @@ console.log(html.split('>'));//remove > split and remove > and print as it is
 
 //replace 
 console.log(html.replace('this','it')) //only affect one variable
+
 
 
 

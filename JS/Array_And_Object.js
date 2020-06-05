@@ -15,8 +15,13 @@ console.log(arr)
 console.log(arr.push(25))
 console.log(arr)
 
+
+
 //unshift add the element  first  position in the array
 console.log(arr.unshift(22));
+
+//Shift remove the first element in array
+console.log(shif.arr)
 
 //Check position
 console.log(arr.indexOf(4));

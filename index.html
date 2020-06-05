@@ -3,22 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Js</title>
-    <script src="app.js"></script>
-    <script src="demo1.js"></script>
-    <script>
-        console.log("Hello world");
-        
-        function fun1(n1,n2){
-            // result = n1 + n2
-    console.log(n1+n2)
-}
-
-fun1(12,13)
-</script>
-
+    <title>Document</title>
+    <script src="Dom/demo.js"></script>
+    <script src="Dom/dom.js"></script>
+    
 </head>
 <body>
-    <h1>1st program d</h1>
+    <p id="demo">Demo</p>
+    <b>Enter Name</b><input class="input" type="text"/>
+    <input type="button" name="Submit" value="submit">
+    <a href="www.google.com">Click here</a>
+    <script>
+
+        //document.getElementById("demo").innerHTML = "Hello World!";
+        document.getElementsByClassName("input");
+      
+       
+      let element=document.getElementById('demo');
+      
+      //also change the innerhtml
+     let d=element.innerHTML="This is Ankit Here";
+
+       //give color
+      element.style.color="red";
+
+    //fetch by name
+      let c=document.getElementsByName('Submit');
+
+      
+      
+
+
+
+        
+
+
+    </script>
 </body>
 </html>

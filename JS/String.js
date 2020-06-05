@@ -2,7 +2,7 @@ mystring="i am programmer";
 console.log(mystring)
 
 //Augmented 
-myStr="this is pain."+"this is lollypop";
+myStr="this is pen."+"this is book ";
 console.log(myStr)
 
 myvalue="hello"

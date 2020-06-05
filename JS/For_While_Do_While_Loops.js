@@ -10,7 +10,6 @@ for(let i=0;i<arr.length;i++){
     const element= arr1[i];
     console.log(element);
 }
-
 //do while loop atleast one time run
 let result='';
 let j=0;
@@ -20,9 +19,7 @@ do{
     
 }while(j<5);
 console.log(result);
-
 //While loop
-
 let n=0;
 while (n<3) {
     n++;
