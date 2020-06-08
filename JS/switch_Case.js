@@ -63,10 +63,7 @@ function chainToSwitch(vals) {
     case 7:
       answer = "Ate Nine";
     }
-  
-    // Only change code above this line
     return answer;
   }
-  
   console.log(chainToSwitch(7));  
   
