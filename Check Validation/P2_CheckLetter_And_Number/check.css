@@ -1,0 +1,25 @@
+li{
+    list-style-type: none;
+    
+}
+
+.mail{
+    text-align: center;
+    margin: auto;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    color:white;
+    border:1px solid ;
+    background-color:black;
+    border-width: 40px;
+    border-color: yellow;
+}
+.rq{
+    font-size: 10px;
+    color:yellow;
+}
+input:focus, textarea:focus{
+background-color: lightyellow;
+}
+
+
