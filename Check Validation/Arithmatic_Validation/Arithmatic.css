@@ -1,0 +1,46 @@
+h2:hover{
+    color: blue; 
+}
+h2{
+    color:white;
+    background-color: black;
+    
+}
+.form1{
+    position: relative;
+    border: solid;
+    padding-top: 50px;
+    padding-right: 50px;
+    text-align: center;
+    line-height: 100%;
+    width: 100%;
+    background-color: salmon;
+   
+}
+#id2{
+    margin-right: 70px;    
+}
+
+
+
+p{
+   text-align: justify;
+   font-size: 20px;
+   background-color:black;
+   color: white;
+   
+   
+   
+}
+
+#id3,#id4,#id5,#id6,#id7{
+    width: 100px;
+    height:30px;
+    box-shadow:0px 0px 5px 5px lightyellow ;
+    border: solid orange;
+}
+#id1,#id2{
+    width: 200px;
+    height: 30px;
+}
+
