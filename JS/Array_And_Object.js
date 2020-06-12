@@ -21,7 +21,7 @@ console.log(arr)
 console.log(arr.unshift(22));
 
 //Shift remove the first element in array
-console.log(shif.arr)
+console.log(arr.shift());
 
 //Check position
 console.log(arr.indexOf(4));
@@ -38,5 +38,8 @@ const marks4=[5,4,5,4,5,7];
 //console.log(marks4.concat(arr))
 console.log(arr.concat(marks4))
 console.log(arr)
+
+var marks6 = marks4.slice(1,4)
+console.log(marks6);
 
 
