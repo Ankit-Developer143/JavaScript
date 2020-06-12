@@ -1,0 +1,24 @@
+body{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 250px;
+    background-color: black;
+    color:yellow;
+}
+body:hover{
+    color: blue;
+    font-size: 60px;
+}
+
+body {}
+    animation: pulse 5s infinite;
+  }
+  
+  @keyframes pulse {
+    0% {
+      background-color: #001F3F;
+    }
+    100% {
+      background-color: #FF4136;
+    }
+  }
