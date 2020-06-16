@@ -11,3 +11,13 @@ var find = /\w+/;
 var result1 = alphanumeric.match(find);
 console.log(result1);
 //op:-'ankit'
+
+//another Method
+let longHand = /[A-Za-z0-9_]+/;
+let shortHand = /\w+/;
+let numbers = "42";
+let varNames = "important_var";
+console.log(longHand.test(numbers)); // Returns true
+shortHand.test(numbers); // Returns true
+longHand.test(varNames); // Returns true
+shortHand.test(varNames); // Returns true
