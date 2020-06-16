@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <h2 class="heading">Calculator</h2>
+    <form id="myform" name="calc" >
+        <input type="text " name="display" style="width: 205px; background-color:rgb(243, 255, 192);border-radius: 10px; "><br>
+        
+
+            <input type="button" value="1" onclick="calc.display.value+='1'">
+            <input type="button" value="2" onclick="calc.display.value+='2'">
+            <input type="button" value="3" onclick="calc.display.value+='3'">
+            <input type="button" value="+" onclick="calc.display.value+='+'" style="background-color: rgba(30, 255, 0, 0.486); color: blue;"  ><br> 
+            <input type="button" value="4" onclick="calc.display.value+='4'">
+            <input type="button" value="5" onclick="calc.display.value+='5'">
+            <input type="button" value="6" onclick="calc.display.value+='6'">
+            <input type="button" value="-" onclick="calc.display.value+='-'" style="background-color: rgba(17, 0, 255, 0.555); color: rgb(211, 238, 240)"><br>
+            <input type="button" value="7" onclick="calc.display.value+='7'">
+            <input type="button" value="8" onclick="calc.display.value+='8'">
+            <input type="button" value="9" onclick="calc.display.value+='9'">
+            <input type="button" value="X" onclick="calc.display.value+='*'"  style="background-color: rgb(126, 185, 36); color:white"><br>
+            <input type="button" value="0" onclick="calc.display.value+='0'">
+            <input type="button" value="." onclick="calc.display.value+='.'" >
+            <input type="button" value="C" onclick="calc.display.value =''" style="background-color:red; color:white">
+            <input type="button" value="&#247" onclick="calc.display.value+='/'" style="background-color: rgba(165, 42, 69, 0.678);color:rgba(210, 224, 11, 0.692);"><br>
+            
+            <input type="button" value="=" id="isequal" onclick="calc.display.value=eval(calc.display.value)">
+        
+
+    </form>
+
+</body>
+
+<script src="calculator.js"></script>
+</html>
