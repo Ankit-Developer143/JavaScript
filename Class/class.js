@@ -14,7 +14,8 @@ class polygon {
     constructor(height, width) {
         this.area = height * width;
     }
-} console.log(new polygon(4, 3).area);
+}
+console.log(new polygon(4, 3).area);
 //op:-12
 
 //class expression
@@ -46,9 +47,3 @@ const p2 = new Point(10, 10);
 
 
 console.log(Point.distance(p1, p2));
-
-
-
-
-
-
