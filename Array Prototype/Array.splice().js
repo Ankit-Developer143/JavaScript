@@ -14,3 +14,16 @@ let a = ["A","B","C","D"];
 let output = a.splice(2,1)
 console.log(output);
 //[ 'C']
+
+
+//join
+const elements = ['Fire', 'Air', 'Water'];
+
+console.log(elements.join());
+// expected output: "Fire,Air,Water"
+
+console.log(elements.join(''));
+// expected output: "FireAirWater"
+
+console.log(elements.join('-'));
+// expected output: "Fire-Air-Water"
