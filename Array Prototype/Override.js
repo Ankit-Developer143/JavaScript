@@ -17,8 +17,11 @@ Penguin.prototype = Object.create(Bird.prototype)
 Penguin.prototype.constructor = Penguin; //Then the ChildObject received its own methods by chaining them onto its prototype: 
 
 Penguin.prototype.fly = function () {
-    return "I am Walking"
-}
+    return "I am Walking";
+};
+
+let obj =new  Bird();
+console.log(obj.fly()); //op:- I am flying!
 
 
 
