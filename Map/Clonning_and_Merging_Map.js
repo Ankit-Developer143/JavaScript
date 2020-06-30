@@ -8,6 +8,8 @@ let first = new Map([
     [2, 'dos']
   ])
   let merged = new Map([...first,...second]);
+  //OR
+  let merged = new Map([...first]);
   console.log(merged);
   /*  Merge maps with an array. The last repeated key wins.
   Map { 1 => 'uno', 2 => 'dos', 3 => 'three' }
