@@ -1,3 +1,5 @@
+/* REMOVE LAST ELEMENT IN THE ARRAY */
+
 var fruits = ["Banana", "Orange", "Apple", "Mango"];
 var obj = fruits.pop();
 //remove last element in the Array
