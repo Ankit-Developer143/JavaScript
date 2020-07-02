@@ -33,8 +33,7 @@ Result  = watchList.map(item =>({
 }))
 console.log(Result);
 
-/* op:-[
-  { Title: 'Inception', Year: '2010' },
-  { Title: 'Interstellar', Year: '2014' }
-]
+/* op:-
+[{ Title: 'Inception', Year: '2010', Language: undefined },
+{ Title: 'Interstellar', Year: '2014', Language: 'English' }]
  */
