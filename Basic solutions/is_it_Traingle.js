@@ -1,12 +1,12 @@
-function isItTraingle(a,b,c) {
+function isItTraingle(a, b, c) {
 
-    if(a+b>c && b+c>a && a+c>b){
+    if (a + b > c && b + c > a && a + c > b) {
         return true;
-    }else{
+    } else {
         return false;
     }
-    
+
 }
-console.log(isItTraingle(8,18,10));
+console.log(isItTraingle(8, 18, 10));
 
 //Valid  traingle mens sub total 180  
