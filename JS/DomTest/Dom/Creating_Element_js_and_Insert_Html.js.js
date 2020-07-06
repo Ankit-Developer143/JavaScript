@@ -21,7 +21,7 @@ console.log(li);
 
 text.id = "text";
 text.className = "text-class";
-text.setAttribute('title',"title")
+text.setAttribute('title', "title")
 text.appendChild(document.createTextNode("This is text area"));
 
 document.getElementById("form").appendChild(text);
