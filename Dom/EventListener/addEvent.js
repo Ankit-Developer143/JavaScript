@@ -1,4 +1,7 @@
 
+var a= 20;
+var b =10;
+
 
 
 //Add EventListener
@@ -21,6 +24,20 @@ function addition(e) {
     val = e.timeStamp; //always change
     console.log(val);
 }
+
+//Addition
+document.getElementById('btn').addEventListener('click', function (e) {
+
+    console.log(a+b);
+    e.preventDefault();
+
+});
+/* op:-30 */
+
+
+
+
+
 
 
 
