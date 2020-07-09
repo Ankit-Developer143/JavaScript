@@ -6,15 +6,29 @@ function dataload() {
 
     xhr.open('GET', 'data.txt', true);
 
+
+
     xhr.onprogress = function () {
         console.log('GETSTATE', xhr);
+    }
+    xhr.onload = function () {
+        console.log('GETSTATE', xhr.readyState);
+
+
         if (this.status === 200 && this.readyState === 4) {
-            console.log(xhr.responseText);
+
+            document.getElementById('output').innerHTML = `<h1> ${this.responseText}</h1> `
 
         }
+
+    }
+    xhr.onerror = function () {
+        console.log("Request error");
 
     }
     xhr.send();
 }
 
-/* GETSTATE XMLHttpRequest {onreadystatechange: null, readyState: 3, timeout: 0, withCredentials: false, upload: XMLHttpRequestUpload, …} */
+
+
+/*op :- GETSTATE XMLHttpRequest {onreadystatechange: null, readyState: 3, timeout: 0, withCredentials: false, upload: XMLHttpRequestUpload, …} */
