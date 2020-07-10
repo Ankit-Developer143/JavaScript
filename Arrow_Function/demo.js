@@ -3,14 +3,14 @@ let a = function sum(a, b) {
     return a + b;
 
 }
-console.log(alert(a(1, 2)));
+console.log(a(2, 4));
 
 
-//method 2
+//(2 parameter ) =>method 2
 let sum = (a, b) => a + b;
 console.log(sum(2, 5));
 
-//method 3
+//(parameter 1) => method 3
 let double = n => n * 2;
 console.log(double(4));
 //op:-8
@@ -47,7 +47,13 @@ ask("DO YOU Agree ?",
     },
     function () {
         ("You Cancelled The execution");
-    }); 
+    });
+
+
+//Return object
+const sayHello = () => ({ msg: 'hello' })
+console.log(sayHello());
+    //op:-{ msg: 'hello' }
 
 
 
