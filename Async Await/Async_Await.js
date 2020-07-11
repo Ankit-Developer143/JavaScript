@@ -18,3 +18,15 @@ myfunc()
     .then(value => console.log(value))
     .catch(err => console.log(err))
 
+
+
+
+    /* Notes
+    1. function
+    2.new Promise
+    3.condition                  if(!error) await Promise else  await Promise.reject
+    4. calling function          functionName()
+    5. .then                     .then(value => console.log(value))
+    6. .then  (for error)         .catch(err => console.log(err))
+    */
+
