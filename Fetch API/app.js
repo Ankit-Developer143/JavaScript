@@ -25,6 +25,15 @@ function getText() {
         });
 }
 
+/* Steps
+1. function
+2.fetch
+3. conversion            .then function and use function parameter.JSON () 
+4.print single data (Multiple Data) use that function parameter.forEach()         .then function(paremeter)
+5.inside function print or store data 
+
+
+*/
 function getJson() {
     fetch('data.json')
         .then(function (res) {
