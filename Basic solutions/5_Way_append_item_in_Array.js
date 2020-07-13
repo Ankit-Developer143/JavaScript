@@ -17,11 +17,13 @@ console.log(old);
 arr.splice(arr.length, 0, 'monkey', 'donkey')
 console.log(arr);//op:-[ 'horse', 'dog', 'cat', 'monkey', 'donkey' ]
 
-
+//concatination
 var newarr = arr.concat('pig');
 console.log(newarr);
 //op:-[ 'horse', 'dog', 'cat', 'monkey', 'donkey', 'pig' ]
 
+
+//using index Values
 const Animal = ['pig'];
 Animal[0] = ('cow')
 console.log(Animal);

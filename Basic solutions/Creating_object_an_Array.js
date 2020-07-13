@@ -17,3 +17,6 @@ var ObjectanArray = Object.entries(Animals)
 
 console.log(ObjectanArray);
 //op:-[ [ 'Dog', 'barking' ], [ 'cat', 'meow' ] ]
+
+
+

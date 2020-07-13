@@ -7,3 +7,4 @@ function getSumOfItems(arr) {
     return sum;
 }
 console.log(getSumOfItems(10)); 
+ 
