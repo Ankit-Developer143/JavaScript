@@ -6,5 +6,5 @@ function getSumOfItems(arr) {
     }
     return sum;
 }
-console.log(getSumOfItems(10)); 
+console.log(getSumOfItems(4)); //45
  
