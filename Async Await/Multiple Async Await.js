@@ -18,9 +18,14 @@ function What() {
 
 }
 async function Print() {
-    const a = await who();
+    /* const a = await who();
     const b = await where();
-    const c = await What();
+    const c = await What(); */
+
+
+    
+    //Same Or
+    const[a,b,c] =await Promise.all([who(),where(),What()])
     
     console.log(`${a} ${b} ${c}`);
 
