@@ -9,23 +9,21 @@ function getText() {
     fetch('data.txt')    //=>like xhr.open()
         //create function (Response Setting) 
 
-        .then(function (Response) {  //onload function inside data conversion
-            return Response.text();
-        })
+        .then(Response => Response.text()) //onload function inside data conversion
+
         //After conversion Here Print Data 
-        .then(function (dataValue) {
+        .then(dataValue => {
             console.log(dataValue);
 
             //Store data in HTML
             document.getElementById('output').innerHTML = dataValue;
         })
         //Show Error
-        .catch(function (err) {
-            console.log(err);
-        });
+        .catch(err => console.log(err))
 }
 
-/* Steps
+/* Steps ======>>>>>>>>>>>>>>>>>>>
+
 1. function
 2.fetch
 3. conversion            .then function and use function parameter.JSON () 
@@ -36,15 +34,13 @@ function getText() {
 */
 function getJson() {
     fetch('data.json')
-        .then(function (res) {
-            return res.json()
-        })
+        .then(res => res.json())
 
-        .then(function (data1) {
+        .then(data1 => {
             console.log(data1);
 
             let output = ' ';
-            data1.forEach(function (post) {
+            data1.forEach(post => {
                 output += `<li>${post.title}</li>
             <li>${post.body}</li> `
 
@@ -52,9 +48,8 @@ function getJson() {
             document.getElementById('output').innerHTML = output;
 
         })
-        .catch(function (err) {
-            console.log(err);
-        });
+        .catch(err => console.log(err))
+
 
 
 
@@ -62,25 +57,36 @@ function getJson() {
 
 function getApi() {
     fetch('https://api.github.com/users')
-        .then(function (res) {
+        /* .then(function (res) {
             return res.json()
-        })
-        .then(function (data2) {
+        }) */
+        .then(res => res.json())
+        .then(data2 => {
             console.log(data2);
 
             let output = ' ';
-            data2.forEach(function (post) {
+            data2.forEach(post => {
                 output += `<li>${post.login}</li>`
 
             })
             document.getElementById('output').innerHTML = output;
         })
-        .catch(function (err) {
+        .catch(err => {
             console.log(err);
         });
-
-
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
