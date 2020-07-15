@@ -7,4 +7,4 @@ function InSide(){
     console.log(c);
 
 }
-Inside();//op:-60
+InSide();//op:-40
