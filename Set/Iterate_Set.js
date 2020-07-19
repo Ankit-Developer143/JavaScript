@@ -29,7 +29,7 @@ for (const item of set3.values()) {
     
 } 
 
-/* Both Loops op:-
+/* All are Same Loops op:-
 1
 Ankit
 { state: 'Maharashtra' }
