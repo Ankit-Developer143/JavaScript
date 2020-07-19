@@ -6,7 +6,6 @@ await is a new operator used to wait for a promise to resolve or reject.  await 
 It can only be used inside an async function.
 await USE ONLY INSIDE ASYNC FUNCTION
 */
-
 function Send() {
     return new Promise((resolve, reject) => {
         setTimeout(() => resolve("Recieved"), 2000)
@@ -22,6 +21,8 @@ async function recieved() {
 
 
 recieved()
+
+
 
 
 

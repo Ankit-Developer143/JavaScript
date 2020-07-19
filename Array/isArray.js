@@ -1,5 +1,5 @@
 
-//isArray Check Array or Not
+//isArray check array or not
 
 var str = "Hello how are you";
 var arr = ["How are you"]

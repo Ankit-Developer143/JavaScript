@@ -1,5 +1,5 @@
 function pain() {
-    var a, no, b, temp = 0;
+    var a, b, temp = 0;
     var num = Number(document.getElementById('text1').value);
     while (num > 0) {
 

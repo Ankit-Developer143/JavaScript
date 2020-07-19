@@ -1,7 +1,7 @@
 
 
 function findLongestWordLength(str) {
-    let lengths = str.split(' ').map(word => word.length)
+    let lengths = str.split(' ').map(word => word.length) //any variable u can choose
     console.log(Math.max(...lengths)); 
   }
   

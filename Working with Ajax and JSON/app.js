@@ -66,13 +66,13 @@ function loadcustomers() {
                 document.getElementById('id2').innerHTML = output;
 
             });
-
-
         }
     }
     xhr1.send();
-
 }
+
+
+
 
 
 /* Note creating Steps*********************************************************************************************************** */

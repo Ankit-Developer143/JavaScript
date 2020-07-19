@@ -24,7 +24,7 @@ console.log(arr.unshift(22));
 console.log(arr.shift());
 
 //Check position
-console.log(arr.indexOf(4));
+console.log("index of :",arr.indexOf(4));
 console.log(arr)
 
 

@@ -10,4 +10,5 @@ function Factorial(){
     } 
     
    document.getElementById('result').innerHTML=fact;
+   
     }

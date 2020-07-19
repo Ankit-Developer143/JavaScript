@@ -26,6 +26,8 @@ async function Print() {
     
     //Same Or
     const[a,b,c] =await Promise.all([who(),where(),What()])
+
+    /* Promise.all returns an array with the resolved values once all the passed-in promises have resolved. */
     
     console.log(`${a} ${b} ${c}`);
 

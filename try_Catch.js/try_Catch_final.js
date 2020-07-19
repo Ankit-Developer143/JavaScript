@@ -24,4 +24,5 @@ function isValidJSON(text) {
         console.log("finally");
     }
 }
-console.log(isValidJSON());//op is Finally and 0
+console.log(isValidJSON());
+//op is Finally and then 0

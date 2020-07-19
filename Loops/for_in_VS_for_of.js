@@ -12,7 +12,7 @@ for (let obj in arr) {
 //iterate all the value like for loops 
 for (let obj of arr) {
     console.log(obj);
-}//op:-abc 
+}//op:-abc  */
 
 
 /* ***********************************************************************************************************8 */
@@ -30,5 +30,6 @@ for (let i in str) {
 for (let i of str) {
     console.log(i);
 }//op:-A,n,k,i,t
+
 
 

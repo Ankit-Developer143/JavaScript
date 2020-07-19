@@ -5,12 +5,12 @@ Create a function that takes in the number of each challenge level a user has pl
  Keep in mind that a user cannot complete negative challenges, so the function should return the string "invalid"
  if any of the passed parameters are negative. */
 
- function scoreCalculator(easy, med, hard) {
+function scoreCalculator(easy, med, hard) {
     //easy 5, med 10, hard 20
-      if (easy >= 0 && med >= 0 && hard >= 0) {
-          return (easy * 5) + (med * 10) + (hard * 20);	
-      } else {
-          return "invalid";
-      }
-  }
-  console.log(scoreCalculator(1, 2,3));//op:-85
+    if (easy >= 0 && med >= 0 && hard >= 0) {
+        return (easy * 5) + (med * 10) + (hard * 20);
+    } else {
+        return "invalid";
+    }
+}
+console.log(scoreCalculator(1, 2, 3));//op:-85
