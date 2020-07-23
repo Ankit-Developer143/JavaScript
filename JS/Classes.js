@@ -1,10 +1,10 @@
 class ClassWithPrivateMethod {
-    #privateMethod() {
+    privateMethod() {
       return 'hello world'
     }
   
     getPrivateMessage() {
-        return this.#privateMethod()
+        return this.privateMethod()
     }
   }
   
