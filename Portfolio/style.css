@@ -1,0 +1,153 @@
+
+ 
+
+#showcase{
+    background: url('./img/laptopman.jpg');
+    background-repeat: no-repeat;  
+    background-size: cover;
+    width: 100%;
+    height: 50%;
+ }
+ .showcase-content{
+     text-align: center;
+     padding-top: 20%;
+   
+     color: white;
+     height: 1000px;  /*background image resize*/
+ }
+
+ @-webkit-keyframes typing { from { width: 0; } }
+@-webkit-keyframes blink-caret { 50% { border-color: transparent; } }
+
+h1,h3{ 
+    align-items: center;
+	font: bold 300% Consolas, Monaco, monospace;
+
+	width: 16.5em; 
+	width: 40ch;
+	margin-top: 40px;
+	white-space: nowrap;
+	overflow: hidden;
+  
+	-webkit-animation: typing 4s steps(21, end),
+	           blink-caret .5s step-end infinite alternate;
+}
+
+
+/* external css: flickity.css */
+
+* { box-sizing: border-box; }
+
+body { font-family: sans-serif; }
+
+.carousel {
+  background: black;
+  margin-bottom: 600px;
+  
+}
+
+.carousel img {
+    
+  display: block;
+  height: 100%;
+}
+
+
+@media screen and ( min-width: 768px ) {
+  .carousel img {
+    height: 400px;
+  }
+}
+
+ 
+
+
+
+.carousel-cell:hover {
+    /* Start the shake animation and make the animation last for 0.5 seconds */
+    animation: shake 0.5s;
+    radius: 10px;
+    
+  
+    /* When the animation is finished, start again */
+    animation-iteration-count: infinite 5s;
+  }
+  
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+
+
+
+  .img-fluid{
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+
+  }
+
+
+
+  /* aboutus---------------------------- */
+
+  .card-img {
+    width: 100%;
+    height: 18vw;
+    object-fit: cover;
+}
+
+.mains{
+    display: flex;
+    margin-top: 100px;
+    
+} 
+
+.inner-container{
+    display: flex;
+    border: solid;
+    border-radius: 10px;
+	
+	justify-items: center;
+	align-items: center;
+}
+.outer{
+    display: flex;
+    
+}
+ .inner-container {
+	height: 430px;
+	width: 250px;
+	padding: 10px;
+    margin-left: 100px;
+    text-align: center;
+
+	border-radius: 10px;
+
+	-webkit-box-shadow: -1px -1px 14px -4px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: -1px -1px 14px -4px rgba(0, 0, 0, 0.75);
+	box-shadow: -1px -1px 14px -4px rgba(0, 0, 0, 0.75);
+}
+/* h2{
+    text-align: center;
+    padding-bottom: 10%;
+}
+   */
+  .inner-container{
+      background-color:cyan ;
+  }
+.outer{
+    background-color: pink;
+}
+a{
+    text-decoration: none;
+}

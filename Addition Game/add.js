@@ -13,12 +13,12 @@ var answer = number1 + number2;
 //add click handler with check answer
 var checkAnswer = document.getElementById('text1');
 var value = checkAnswer.value;
-var btn = document.getElementById("btn").value;
+var btn = document.getElementById("btn");
 
 
 btn.onclick = function () {
     value = checkAnswer.value;
-    if (value === answer) {
+    if (value == answer) {
         alert('You are correct');
     } else {
         alert('You are incorrect, the answer was ' + answer);
