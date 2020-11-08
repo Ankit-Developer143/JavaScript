@@ -1,3 +1,3 @@
 ## JavaScript languages
 
-## It all About JAVAScript
+## It all About JavaScript
