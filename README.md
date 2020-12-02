@@ -1,3 +1,4 @@
 ## JavaScript languages
 
-## It all About JavaScript with api
+## It all About JavaScript with api and basic javascripts
+
